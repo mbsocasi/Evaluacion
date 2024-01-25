@@ -1,0 +1,36 @@
+#root {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin: 1rem;
+  padding: 1rem;
+  width: 30%;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card li {
+  border-bottom: 1px solid #dee2e6;
+  padding: 0.5rem 0;
+}
+
+.card li:last-child {
+  border-bottom: none;
+}
